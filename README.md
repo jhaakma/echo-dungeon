@@ -102,20 +102,24 @@ Ability: Swoop - Allows the bat to travel a great distance without making any so
 Passive creatures make noise which could potentially alert dangerous enemies.
 
 #### Bat
-- Fidgitiness: medium
-- Walk Speed: medium
-- Run Speed: medium
-- Walk Noise: low
-- Vocalisation Noise: high
-- Hearing: very high
+| Stat | Level |
+|------|-------------|
+| Fidgitiness | medium |
+| Idle Speed | medium |
+| Run Speed | medium |
+| Walk Noise | low |
+| Vocalisation Noise | high |
+| Hearing | very high |
 
 #### Rat
-- Fidgitiness: high
-- Walk Speed: high
-- Run Speed: high
-- Walk Noise: medium
-- Vocalisation Noise: medium
-- Hearing: medium
+| Stat | Level |
+|------|-------------|
+| Fidgitiness | high |
+| Idle Speed | high |
+| Run Speed | high |
+| Walk Noise | medium |
+| Vocalisation Noise | medium |
+| Hearing | medium |
 
 ### Sound Generators
 Environmental objects which generate sounds, either on their own or when mobs move across them
