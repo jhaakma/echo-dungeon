@@ -41,6 +41,20 @@ Slimes are slow and hard of hearing. They aren't very noisy though so they can s
 
 Ability: Duplicate - Splits into two slimes when struck with a weapon or stone
 
+#### Skeleton
+| Stat | Level |
+|------|-------------|
+| Fidgitiness | medium |
+| Idle Speed | low |
+| Run Speed | medium |
+| Walk Noise | high |
+| Vocalisation Noise | medium |
+| Hearing | low |
+
+Skeletons are the reincarnated remains of prisoners who were left to run in the dark. They rattle a lot making them easy to avoid, but they are dangerous once they give chase. 
+
+Ability: Crumble - Collapse into a pile of bones, becoming more difficult to detect
+
 #### Troll
 | Stat | Level |
 |------|-------------|
@@ -127,3 +141,26 @@ Environmental objects which generate sounds, either on their own or when mobs mo
 - Swinging chains - periodic sounds that continues after walking across
 - Puddles - splashing sound when walked across
 
+### Level Types
+
+#### Sewers
+| Enemies   | Passives |  Environment    |
+|-----------|----------|-----------------|
+| Slimes    |   Rats   |    Puddles      |
+|           |          |  Water drips    |
+|           |          | Flowing water   |
+|           |          | Long hallways   |
+
+#### Prison
+|  Enemies  | Passives |  Environment    |
+|-----------|----------|-----------------|
+| Skeletons |   Rats   | Prison Cells    |
+|           |          | Hanging chains  |
+|           |          |                 |
+
+#### Caves
+|  Enemies  | Passives |  Environment    |
+|-----------|----------|-----------------|
+| Goblins   |   Bats   | Large caverns   |
+| Trolls    |          | Goblin huts     |
+|           |          | Goblin treasure |
