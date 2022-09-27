@@ -84,24 +84,18 @@ Spiders are fast and unpredictable. Fortunately they are almost completely deaf,
 Ability: Web - occasionally spins a web which takes up one tile and slows down anything that passes through, in addition to dampening any sound passing through it
 
 #### Werebat
-- Fidgitiness: medium
-- Walk Speed: low
-- Run Speed: medium
-- Walk Noise: low
-- Vocalisation Noise: very high
-- Hearing: very high
 | Stat | Level |
 |------|-------------|
-| Fidgitiness | high |
-| Idle Speed | high |
-| Run Speed | high |
-| Walk Noise | high |
-| Vocalisation Noise | high |
-| Hearing | very low |
+| Fidgitiness | medium |
+| Idle Speed | low |
+| Run Speed | medium |
+| Walk Noise | low |
+| Vocalisation Noise | very high |
+| Hearing | very high |
+
 Werebats have incredibly good hearing, and make loud clicks and screeches to seek out their prey. While this might make them easy to detect from a distance, if you can hear them there's a good chance that they can already "see" you.
 
 Ability: Swoop - Allows the bat to travel a great distance without making any sound
-
 
 
 ### Passive Creatures
