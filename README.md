@@ -39,7 +39,7 @@ This page is currently a loose collection of ideas approximating a design docume
 
 Slimes are slow and hard of hearing. They aren't very noisy though so they can sneak up on you.
 
-Ability: Duplicate - Splits into two slimes when struck with a weapon or stone
+Ability: Duplicate - Splits into baby slimes when damaged
 
 #### Skeleton
 | Stat | Level |
@@ -114,26 +114,10 @@ Ability: Swoop - Allows the bat to travel a great distance without making any so
 
 ### Passive Creatures
 Passive creatures make noise which could potentially alert dangerous enemies.
-
-#### Bat
-| Stat | Level |
-|------|-------------|
-| Fidgitiness | medium |
-| Idle Speed | medium |
-| Run Speed | medium |
-| Walk Noise | low |
-| Vocalisation Noise | high |
-| Hearing | very high |
-
-#### Rat
-| Stat | Level |
-|------|-------------|
-| Fidgitiness | high |
-| Idle Speed | high |
-| Run Speed | high |
-| Walk Noise | medium |
-| Vocalisation Noise | medium |
-| Hearing | medium |
+- Bats
+- Rats
+- Snakes
+- Baby slimes (grow into adult slimes)
 
 ### Sound Generators
 Environmental objects which generate sounds, either on their own or when mobs move across them
