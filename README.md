@@ -19,18 +19,75 @@ This page is currently a loose collection of ideas approximating a design docume
 
 #### Enemy Attributes
 - Fidgitiness: how much an enemy moves about. Some enemies run around, some stay stationary when not disturbed
-- Speed: Enemies have varying idle speed and chase speed
-- Noise: Enemies have varying amplitudes of noise. This includes walking noise and vocalisations
+- Idle Speed: How fast an emey walks
+- Chase Speed: How fast an enemy runs when pursuing the player
+- Walk Noise: How loud an enemy is when walking
+- Vocalisation Noise: How loudly an enemy vocalises (screams, clicks, chatter etc)
 - Hearing: Some enemies can hear very well, others won't hear you until you are very close
 
 #### Enemy Types
 
 ##### Slime
 - Fidgitiness: low
-- Speed: very low
-- Noise: medium
+- Walk Speed: very low
+- Chase Speed: very low
+- Walk Noise: medium
+- Vocalisation Noise: low
 - Hearing: very low
 
 Slimes are slow and hard of hearing. They aren't very noisy though so they can sneak up on you.
 
+Ability: Duplicate - Splits into two slimes when struck with a weapon or stone
+
+##### Troll
+- Fidgitiness: low
+- Walk Speed: low
+- Chase Speed: low
+- Walk Noise: medium
+- Vocalisation Noise: medium
+- Hearing: low
+
+Trolls are big, dumb, slow and hard of hearing. They also make a fair bit of noise so are easy to avoid. However, beware their ability to stun their targets by smashing the ground (this also generates a lot of noise which can attract even more unwanted attention). 
+
+Ability: Ground Smash - Stuns nearby creatures/player and generates a large sound wave
+
+##### Goblin
+- Fidgitiness: medium
+- Walk Speed: low
+- Chase Speed: medium
+- Walk Noise: medium
+- Vocalisation Noise: high
+- Hearing: medium
+
+Goblins travel in packs and can be very dangerous if they spot you. Luckily, they are not the best listeners, prefering instead to talk - loudly. Because of how much noise they make, they tend to be easy to avoid.
+
+Ability: Battle Cry - Screams to alert nearby goblins to join the chase
+
+##### Spider
+- Fidgitiness: high
+- Walk Speed: high
+- Chase Speed: high
+- Walk Noise: high
+- Vocalisation Noise: high
+- Hearing: very low
+
+Spiders are fast and unpredictable. They move around a lot and make a lot of noise. Fortunately they are almost completely deaf, they can only detect the player at very close distances from the vibrations felt by their feet. Your best hope is to just run for it when these things approach.
+
+Ability: Web - occasionally spins a web which takes up one tile and slows down anything that passes through, in addition to dampening any sound passing through it
+
+
+
+
+
+##### Werebat
+- Fidgitiness: medium
+- Walk Speed: low
+- Chase Speed: medium
+- Walk Noise: low
+- Vocalisation Noise: very high
+- Hearing: very high
+
+Werebats have incredibly good hearing, and make loud clicks and screeches to seek out their prey. While this might make them easy to detect from a distance, if you can hear them there's a good chance that they can already "see" you.
+
+Ability: 
 
