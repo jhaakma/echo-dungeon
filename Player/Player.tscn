@@ -1,0 +1,49 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Player/Player.gd" type="Script" id=1]
+[ext_resource path="res://assets/Bat_idle.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=49]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="AtlasTexture" id=50]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=51]
+atlas = ExtResource( 2 )
+region = Rect2( 16, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=52]
+atlas = ExtResource( 2 )
+region = Rect2( 32, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=53]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=54]
+animations = [ {
+"frames": [ SubResource( 50 ), SubResource( 51 ), SubResource( 52 ), SubResource( 53 ) ],
+"loop": true,
+"name": "default",
+"speed": 8.0
+} ]
+
+[node name="Player" type="KinematicBody2D"]
+use_parent_material = true
+script = ExtResource( 1 )
+run_volume = 25
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 8, 8 )
+scale = Vector2( 0.95, 0.95 )
+shape = SubResource( 49 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+use_parent_material = true
+position = Vector2( 8, 8 )
+z_index = 1
+frames = SubResource( 54 )
+frame = 3
+playing = true

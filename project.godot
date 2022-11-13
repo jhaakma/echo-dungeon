@@ -1,0 +1,152 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Echo",
+"language": "GDScript",
+"path": "res://Scripts/Echo.gd"
+}, {
+"base": "Node",
+"class": "EchoController",
+"language": "GDScript",
+"path": "res://Scripts/EchoController.gd"
+}, {
+"base": "Reference",
+"class": "EchoGenerator",
+"language": "GDScript",
+"path": "res://Scripts/EchoGenerator.gd"
+}, {
+"base": "Node",
+"class": "EchoShader",
+"language": "GDScript",
+"path": "res://Scripts/EchoShader.gd"
+}, {
+"base": "TileMap",
+"class": "EchoTileMap",
+"language": "GDScript",
+"path": "res://TileMap.gd"
+}, {
+"base": "Reference",
+"class": "Grid",
+"language": "GDScript",
+"path": "res://Classes/Grid.gd"
+}, {
+"base": "Reference",
+"class": "GridNode",
+"language": "GDScript",
+"path": "res://Classes/GridNode.gd"
+}, {
+"base": "Node",
+"class": "LevelService",
+"language": "GDScript",
+"path": "res://Classes/LevelService.gd"
+}, {
+"base": "Reference",
+"class": "Memory",
+"language": "GDScript",
+"path": "res://Scripts/Memory.gd"
+}, {
+"base": "Node",
+"class": "Mob",
+"language": "GDScript",
+"path": "res://Classes/Mob.gd"
+}, {
+"base": "Node2D",
+"class": "Sound",
+"language": "GDScript",
+"path": "res://Classes/Sound.gd"
+}, {
+"base": "Reference",
+"class": "Walker",
+"language": "GDScript",
+"path": "res://Classes/Walker.gd"
+} ]
+_global_script_class_icons={
+"Echo": "",
+"EchoController": "",
+"EchoGenerator": "",
+"EchoShader": "",
+"EchoTileMap": "",
+"Grid": "",
+"GridNode": "",
+"LevelService": "",
+"Memory": "",
+"Mob": "",
+"Sound": "",
+"Walker": ""
+}
+
+[application]
+
+config/name="Echoes"
+run/main_scene="res://World.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/size/test_width=1920
+window/size/test_height=1080
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[global]
+
+font=false
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[input]
+
+ui_left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777231,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":14,"pressure":0.0,"pressed":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777233,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":15,"pressure":0.0,"pressed":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777232,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":12,"pressure":0.0,"pressed":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_down={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777234,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":13,"pressure":0.0,"pressed":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+make_noise={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":69,"unicode":0,"echo":false,"script":null)
+ ]
+}
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
